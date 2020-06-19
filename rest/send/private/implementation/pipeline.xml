@@ -1,0 +1,8 @@
+<structure interface="$self:api" name="pipeline">
+    <structure name="input"/>
+    <structure name="output"/>
+    <structure collectionName="Users" definition="nabu.cms.core.types.model.core.User" minOccurs="0" name="user" namespace="nabu.cms.core.types.model.core"/>
+    <field minOccurs="0" name="formatted" type="java.lang.String"/>
+    <structure definition="be.nabu.eai.module.web.application.api.TemporaryAuthentication" minOccurs="0" name="authentication"/>
+    <field name="valid" type="java.lang.Boolean"/>
+</structure>

@@ -1,0 +1,4 @@
+<structure name="sendInput">
+    <field name="alias" type="java.lang.String"/>
+    <field name="password" type="java.lang.String"/>
+</structure>
