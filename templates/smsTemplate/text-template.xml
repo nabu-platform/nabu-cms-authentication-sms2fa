@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<textTemplate>
+    <input>nabu.cms.authentication.sms2fa.templates.smsTemplateInput</input>
+    <translationService>nabu.cms.core.providers.translation.translationService</translationService>
+    <content>%{Your verification code is: ${code}}</content>
+</textTemplate>

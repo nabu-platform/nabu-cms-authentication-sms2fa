@@ -7,6 +7,7 @@
     <configurationType>nabu.cms.authentication.sms2fa.configuration</configurationType>
     <lenient>false</lenient>
     <webApplicationId>true</webApplicationId>
+    <geoPosition>false</geoPosition>
     <language>false</language>
     <allowFormBinding>false</allowFormBinding>
     <caseInsensitive>false</caseInsensitive>

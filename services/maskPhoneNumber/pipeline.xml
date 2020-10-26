@@ -1,0 +1,12 @@
+<structure name="pipeline">
+    <structure name="input">
+        <field name="number" type="java.lang.String"/>
+        <field minOccurs="0" name="length" type="java.lang.Long"/>
+    </structure>
+    <structure name="output">
+        <field name="maskedNumber" type="java.lang.String"/>
+    </structure>
+    <field minOccurs="0" name="size" type="java.lang.Integer"/>
+    <field minOccurs="0" name="firstPart" type="java.lang.String"/>
+    <field minOccurs="0" name="lastPart" type="java.lang.String"/>
+</structure>

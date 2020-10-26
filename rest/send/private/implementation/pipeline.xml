@@ -5,4 +5,6 @@
     <field minOccurs="0" name="formatted" type="java.lang.String"/>
     <structure definition="be.nabu.eai.module.web.application.api.TemporaryAuthentication" minOccurs="0" name="authentication"/>
     <field name="valid" type="java.lang.Boolean"/>
+    <structure collectionName="Nodes" definition="nabu.cms.core.types.model.core.Node" duplicate="id,created,modified" name="node" namespace="nabu.cms.core.types.model.core"/>
+    <field name="language" type="java.lang.String"/>
 </structure>

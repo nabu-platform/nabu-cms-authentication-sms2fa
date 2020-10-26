@@ -4,4 +4,5 @@
     <field minOccurs="0" name="smsSendId" type="java.lang.String"/>
     <field comment="The message you want to send to the user. Use {token} as replacement for what the user has to type in." minOccurs="0" name="message" type="java.lang.String"/>
     <field comment="How long the generated code is valid." minOccurs="0" name="timeout" type="be.nabu.libs.types.base.Duration"/>
+    <field comment="Amount of numbers visible in masked phone number." minOccurs="0" name="unmaskedLength" type="java.lang.Long"/>
 </structure>
