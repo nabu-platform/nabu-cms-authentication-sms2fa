@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><node artifactManager="be.nabu.eai.module.rest.provider.RESTServiceManager" created="2020-06-16T09:41:09.254+02:00" lastModified="2020-07-02T14:07:53.056+02:00" leaf="true" version="61"><environmentId>apollo</environmentId><hidden>false</hidden><properties/><references>nabu.cms.authentication.sms2fa.templates.smsTemplate</references><references>nabu.web.application.Services.newTemporaryAuthentication</references><references>nabu.cms.authentication.sms2fa.interfaces.phoneNumberProvider</references><references>nabu.cms.authentication.sms2fa.configuration</references><references>nabu.cms.authentication.sms2fa.rest.sendInput</references><references>nabu.cms.authentication.sms2fa.rest.sendOutput</references><references>nabu.specs.sms.send</references><references>nabu.cms.core.database.masterdata.entry.selectById</references><references>nabu.cms.core.types.model.core.Node</references><references>nabu.web.application.Services.information</references><references>nabu.cms.authentication.sms2fa.services.maskPhoneNumber</references><references>nabu.cms.core.types.model.core.User</references><references>be.nabu.eai.module.web.application.api.TemporaryAuthentication</references><references>nabu.misc.configuration.Services.configurations</references><references>nabu.libs.google.phone.Services.format</references><references>java.lang.Boolean</references><references>nabu.services.jdbc.Services.select</references><references>java.lang.String</references><references>nabu.cms.core.database.user.selectByAlias</references><references>nabu.utils.Date.incrementDuration</references><references>nabu.cms.core.utils.security.password.validate</references></node>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<node artifactManager="be.nabu.eai.module.rest.provider.RESTServiceManager" created="2020-06-16T09:41:09.254+02:00" lastModified="2023-01-31T17:38:24.129+01:00" leaf="true" version="71">
+    <environmentId>apollo</environmentId>
+    <hidden>false</hidden>
+    <locked>false</locked>
+    <properties/>
+    <references>nabu.cms.authentication.sms2fa.templates.smsTemplate</references>
+    <references>nabu.web.application.Services.newTemporaryAuthentication</references>
+    <references>nabu.cms.authentication.sms2fa.interfaces.phoneNumberProvider</references>
+    <references>nabu.cms.authentication.sms2fa.configuration</references>
+    <references>nabu.utils.Server.password</references>
+    <references>nabu.cms.authentication.sms2fa.rest.sendInput</references>
+    <references>nabu.cms.authentication.sms2fa.rest.sendOutput</references>
+    <references>nabu.specs.sms.send</references>
+    <references>nabu.web.application.Services.information</references>
+    <references>nabu.cms.authentication.sms2fa.services.maskPhoneNumber</references>
+    <references>be.nabu.eai.module.web.application.api.TemporaryAuthentication</references>
+    <references>nabu.cms.core.crud.user.types.output</references>
+    <references>nabu.misc.configuration.Services.configurations</references>
+    <references>nabu.libs.google.phone.Services.format</references>
+    <references>nabu.cms.core.crud.masterDataEntry.services.get</references>
+    <references>java.lang.Boolean</references>
+    <references>java.lang.String</references>
+    <references>nabu.cms.core.crud.user.services.list</references>
+    <references>nabu.utils.Date.incrementDuration</references>
+    <references>nabu.cms.core.utils.security.password.validate</references>
+</node>

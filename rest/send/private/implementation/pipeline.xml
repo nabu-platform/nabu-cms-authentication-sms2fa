@@ -1,10 +1,9 @@
-<structure interface="$self:api" name="pipeline">
+<structure interface="nabu.cms.authentication.sms2fa.rest.send:api" name="pipeline">
     <structure name="input"/>
     <structure name="output"/>
-    <structure collectionName="Users" definition="nabu.cms.core.types.model.core.User" minOccurs="0" name="user" namespace="nabu.cms.core.types.model.core"/>
     <field minOccurs="0" name="formatted" type="java.lang.String"/>
     <structure definition="be.nabu.eai.module.web.application.api.TemporaryAuthentication" minOccurs="0" name="authentication"/>
     <field name="valid" type="java.lang.Boolean"/>
-    <structure collectionName="Nodes" definition="nabu.cms.core.types.model.core.Node" duplicate="id,created,modified" name="node" namespace="nabu.cms.core.types.model.core"/>
     <field name="language" type="java.lang.String"/>
+    <structure collectionName="users" definition="nabu.cms.core.crud.user.types.output" duplicate="id, created, modified" minOccurs="0" name="user"/>
 </structure>
